@@ -7,66 +7,75 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <meta name= viewport content= "width=device-width initial-scale=1"
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <meta name= viewport content= "width=device-width initial-scale=1">
+
 
 </head>
-<body>
-  <div class="container">
+<body class="container">
 
-    <div class="row">
+
+
+
+  <header class="row">
+
       <div class="col-md-6">
         <img class="logo" src="images/logo.jpg" alt="Udacity logo" width="60px">
       </div>
       <div class="col-md-6 text-right text-uppercase">
         <h1 class="text-thin title-super"> Jane Doette </h1>
-        <h4> Front-end Ninja </h4>
+        <h4 id="Domaine"> Front-end Ninja </h4>
       </div>
-  </div>
 
-  <div class="row">
+</header>
+
+<nav class="row">
+
     <div class="col-md-12">
       <hr >
     </div>
-  </div>
 
-  <div class="row">
+</nav>
+
+<section id="main" class="row">
+
     <div class="col-md-12">
       <img class="img-responsive" src="images/HTML.jpg" alt="Main image" width="1200px">
     </div>
-  </div>
 
-  <div class="row">
+</section>
+
+    <section id="MyWork" class="row">
+
     <div class="col-md-12">
       <h2 class="text-muted"> Featured Work </h2>
     </div>
-  </div>
 
-  <div class="row">
+    </section>
 
-    <div class="col-md-4">
-      <img class="img-responsive" src="images/appify.png" alt="Appify" data-toggle="modal" data-target="#project1">>
+
+  <section id="1project" class="col-md-4">
+      <img class="img-responsive" src="images/appify.png" alt="Appify" data-toggle="modal" data-target="#project1">
       <h3 class="text-uppercase"> Appify </h3>
       <p> https://github.com/udacity/appify </p>
-    </div>
+    </section>
 
 
-    <div class="col-md-4">
+    <section id="2project" class="col-md-4">
       <img class="img-responsive" src="images/sunflower.png" alt="Sunflower" width="500px">
       <h3 class="text-uppercase"> Sunflower </h3>
       <p> https://github.com/udacity/sunflower </p>
-    </div>
+    </section>
 
 
-    <div class="col-md-4">
+    <section id="3project" class="col-md-4">
       <img class="img-responsive" src="images/bokeh.jpg" alt="bokeh" >
       <h3 class="text-uppercase"> Bokeh </h3>
       <p> https://github.com/udacity/bokeh </p>
-    </div>
-  </div>
+    </section>
 
-</div>
+
+
+
 
 <!-- Modal 1  -->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -76,7 +85,7 @@
                     <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/appify.png">
+                    <img class="img-responsive" src="images/appify.png" alt="Appify">
                   </br>
                     This was my first project in this class. I learned a lot about HTML and CSS.
                 </div>
@@ -86,5 +95,9 @@
             </div>
         </div>
     </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 </body>
 </html>
